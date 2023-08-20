@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.tableHead {
+  background-color: #4155da;
+}
+
+.tableHeader {
+  padding: 10px;
+  text-align: left;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableData {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

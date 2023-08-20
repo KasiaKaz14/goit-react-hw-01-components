@@ -1,0 +1,31 @@
+.item {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 8px 24px 0px rgba(0, 0, 0, 0.28);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  width: 450px;
+  margin: 20px 0px;
+}
+.status {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: red;
+}
+.avatar {
+  padding: 0 20px;
+}
+.name {
+  font-weight: 600;
+  font-style: italic;
+}
